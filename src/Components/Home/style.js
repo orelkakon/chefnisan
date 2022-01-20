@@ -52,7 +52,7 @@ export const ContactIcon = styled.a`
 
 export const NumberPhone = styled.a`
     text-decoration: none;
-    font-size: large;
+    font-size: medium;
     color: white;
     font-family: sans-serif;
     font-weight: bold;
@@ -121,9 +121,10 @@ export const Description = styled.p`
     }
 `;
 
-export const JumpOrder = styled.button`
-    height: 60px;
+export const JumpOrder = styled.a`
+    height: auto;
     width: 230px;
+    text-decoration: none;
     font-size: 25px;
     border: 3px solid #b2e1eb;
     border-radius: 50px;
@@ -140,7 +141,6 @@ export const JumpOrder = styled.button`
         text-shadow: none;
     }
     :hover{
-        transform: scale(1.4);
-        border: none;
+        transform: scale(1.1);
     }
 `;

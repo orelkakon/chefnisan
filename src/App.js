@@ -5,6 +5,7 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Gallery from './Components/Gallery';
 import Review from './Components/Review';
+import Contact from './Components/Contact';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <hr style={{width: "50%"}}/>
       <Gallery />
       <Review />
+      <Contact />
     </LandPage>
   );
 };

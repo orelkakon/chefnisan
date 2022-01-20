@@ -5,6 +5,7 @@ export const ReviewDiv = styled.div`
     text-align: center;
     flex-direction: column;
     height: auto;
+    margin-bottom: 30px;
 `;
 
 export const Content = styled.div`

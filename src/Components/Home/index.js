@@ -27,7 +27,7 @@ const Home = () => {
                 <SuperTitle>{SUPER_TITLE}</SuperTitle>
                 <Description>{DESCRIPTION}</Description>
             </Content>
-            <JumpOrder>
+            <JumpOrder href="#jump_point">
                 {JUMP_ORDER}
             </JumpOrder>
         </HomeDiv>
