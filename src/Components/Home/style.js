@@ -35,6 +35,7 @@ export const Logo = styled.div`
         width: 100px;
         height: 100px;
         border-radius: 30px;
+        box-shadow: 0.3px 0.3px 5px #b2e1eb;
     }
 `;
 
@@ -42,7 +43,7 @@ export const ContactDiv = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 150px;
+    height: 140px;
 `;
 
 export const ContactIcon = styled.a`
@@ -73,9 +74,73 @@ export const ContactImg = styled.img`
     @media only screen and (min-width: 960px) {
         height: 100px;
         width: 100px;
-        ${props => props.first ? 'right: 0;':'right: 110px;'}
+        ${props => props.first ? 'right: 0;' : 'right: 110px;'}
         position: absolute;
     }
 `;
 
+export const Content = styled.div`
 
+`;
+
+export const Title = styled.p`
+    direction: rtl;
+    font-size: 45px;
+    text-shadow: 2px 2px 2px black;
+    @media only screen and (min-width: 960px) {
+        font-size: 60px;
+    }
+    color: #b2e1eb;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+`;
+
+export const SuperTitle = styled.p`
+    direction: rtl;
+    margin: 0;
+    font-size: 60px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+    @media only screen and (min-width: 960px) {
+        color: black;
+        text-shadow: 2px 2px 2px white;
+    }
+`;
+
+export const Description = styled.p`
+    direction: rtl;
+    margin: 0;
+    word-spacing: 7px;
+    font-size: 25px;
+    white-space: pre;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+    @media only screen and (min-width: 960px) {
+        color: black;
+        text-shadow: 2px 2px 2px white;
+    }
+`;
+
+export const JumpOrder = styled.button`
+    height: 60px;
+    width: 230px;
+    font-size: 25px;
+    border: 3px solid #b2e1eb;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #b2e1eb;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+    @media only screen and (min-width: 960px) {
+        border: 3px solid black;
+        color: black;
+        text-shadow: none;
+    }
+    :hover{
+        transform: scale(1.4);
+        border: none;
+    }
+`;
