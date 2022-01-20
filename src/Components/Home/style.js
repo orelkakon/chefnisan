@@ -52,7 +52,7 @@ export const ContactIcon = styled.a`
 
 export const NumberPhone = styled.a`
     text-decoration: none;
-    font-size: medium;
+    font-size: large;
     color: white;
     font-family: sans-serif;
     font-weight: bold;
@@ -60,7 +60,7 @@ export const NumberPhone = styled.a`
     margin-right: 10px;
     @media only screen and (min-width: 960px) {
         font-size: xx-large;
-        left: 0;
+        left: 20px;
         position: absolute;
     }
         
@@ -74,7 +74,7 @@ export const ContactImg = styled.img`
     @media only screen and (min-width: 960px) {
         height: 100px;
         width: 100px;
-        ${props => props.first ? 'right: 0;' : 'right: 110px;'}
+        ${props => props.first ? 'right: 20px;' : 'right: 130px;'}
         position: absolute;
     }
 `;
