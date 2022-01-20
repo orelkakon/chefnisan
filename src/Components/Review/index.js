@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
-import { GalleryDiv } from './style'
-import { Content, Images, Title, Description, Image, Video } from './style'
-import { DESCRIPTION, TITLE } from './text'
-import { isMobile } from 'react-device-detect';
+import { ReviewDiv } from './style'
+import { Content, Images, Title, Image } from './style'
+import { TITLE } from './text'
 import Modal from 'react-modal';
 import ImageInModal from './modalImage'
 import images from './images'
-import videos from './videos'
 
 const customStyles = {
     content: {
@@ -25,7 +23,7 @@ const customStyles = {
 };
 
 
-const Gallery = () => {
+const Review = () => {
     const [modalIsOpen, setIsOpen] = useState(false);
     const [img, setImg] = useState(null);
     const openCloseModal = () => setIsOpen(!modalIsOpen)
@@ -35,14 +33,11 @@ const Gallery = () => {
         setIsOpen(!modalIsOpen);
     }
     return (
-        <GalleryDiv>
+        <ReviewDiv>
             <Content>
                 <Title>
                     {TITLE}
                 </Title>
-                <Description>
-                    {DESCRIPTION}
-                </Description>
             </Content>
             <Images>
                 {
@@ -59,14 +54,9 @@ const Gallery = () => {
                 >
                     <ImageInModal closeModal={openCloseModal} imgChosen={img} />
                 </Modal>
-                {
-                    videos && videos.map((video, index) => {
-                        return ( isMobile ? <Video key={index} src={video} muted loop /> : <Video src={video} autoPlay muted loop />)
-                    })
-                }
             </Images>
-        </GalleryDiv>
+        </ReviewDiv>
     );
 };
 
-export default Gallery;
+export default Review;
