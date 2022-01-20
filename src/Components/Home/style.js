@@ -62,8 +62,7 @@ export const NumberPhone = styled.a`
         font-size: xx-large;
         left: 20px;
         position: absolute;
-    }
-        
+    }   
 `;
 
 export const ContactImg = styled.img`

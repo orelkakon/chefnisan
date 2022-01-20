@@ -6,6 +6,7 @@ import About from './Components/About';
 import Gallery from './Components/Gallery';
 import Review from './Components/Review';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Gallery />
       <Review />
       <Contact />
+      <Footer />
     </LandPage>
   );
 };
