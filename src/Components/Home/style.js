@@ -8,7 +8,7 @@ export const HomeDiv = styled.div`
     flex-direction: column;
     text-align: center;
     align-items: center;
-    height: 100vh;
+    height: 110vh;
     background: url(${background_web}) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -109,7 +109,7 @@ export const SuperTitle = styled.p`
 export const Description = styled.p`
     direction: rtl;
     margin: 0;
-    word-spacing: 7px;
+    word-spacing: 3px;
     font-size: 25px;
     white-space: pre;
     color: whitesmoke;
@@ -131,6 +131,7 @@ export const JumpOrder = styled.a`
     color: #b2e1eb;
     text-shadow: 2px 2px 2px black;
     font-weight: 700;
+    margin-bottom: 10px;
     margin-top: 10px;
     padding: 5px;
     cursor: pointer;

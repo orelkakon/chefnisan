@@ -42,6 +42,12 @@ import Image66 from './../../Assets/I66.jpeg'
 import Image67 from './../../Assets/I67.jpeg'
 import Image68 from './../../Assets/I68.jpeg'
 import Image69 from './../../Assets/I69.jpeg'
+import Image70 from './../../Assets/I70.jpeg'
+import Image71 from './../../Assets/I71.jpeg'
+import Image72 from './../../Assets/I72.jpeg'
+import Image73 from './../../Assets/I73.jpeg'
+import Image74 from './../../Assets/I74.jfif'
+import Image75 from './../../Assets/I75.jfif'
 import Table9 from "./../../Assets/t9.jfif"
 import Table2 from "./../../Assets/t2.jfif"
 import Table3 from "./../../Assets/t3.jfif"
@@ -51,6 +57,6 @@ import Table6 from "./../../Assets/t6.jfif"
 import Table7 from "./../../Assets/t7.jfif"
 import Table8 from "./../../Assets/t8.jfif"
 
-const images = [Image1, Image2, Image55, Image3, Image5,  Image8,  Image9, Image13, Image16, Image17, Image21, Image24, Image25, Image26, Image27, Image28,Image36, Image38, Image40, Image41, Image43, Image44, Image45, Image47, Image48, Image50, Image51, Image52, Image53, Image54, Image56, Image57, Image58, Image59, Image60, Image61, Image62, Image63, Image64, Image65, Image66, Image67, Image68, Image69, Table2, Table3, Table4, Table5, Table6, Table7, Table8, Table9]
+const images = [Image1, Image2, Image55, Image3, Image5,  Image8,  Image9, Image13, Image16, Image17, Image21, Image24, Image25, Image26, Image27, Image28,Image36, Image38, Image40, Image41, Image43, Image44, Image45, Image47, Image48, Image50, Image51, Image52, Image53, Image54, Image56, Image57, Image58, Image59, Image60, Image61, Image62, Image63, Image64, Image65, Image66, Image67, Image68, Image69, Image70, Image71, Image72, Image73, Image74, Image75, Table2, Table3, Table4, Table5, Table6, Table7, Table8, Table9]
 
 export default images

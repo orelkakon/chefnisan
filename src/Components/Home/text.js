@@ -1,9 +1,21 @@
-export const PRE_TITLE = "רוצים להנות";
-export const POST_TITLE = "מחוויה יוצאת דופן";
+export const PRE_TITLE = "בואו להגשים";
+export const POST_TITLE = "את האירוע החלומי שלכם";
 export const SUPER_TITLE = "עם השף ניסן חי";
-export const DESCRIPTION = `אירועי יוקרה, ארוחות שף בוטיק,
- חתונות וכל אירוע שתחלמו עליו!
-  שמים לב לפרטים הקטנים,
-   טעמים יוצאי דופן, 
- חוויה קולינארית ייחודית 🍽`;
-export const JUMP_ORDER = `בואו נעשה אירוע`
+export const DESCRIPTION_WEB = `אז למה שתצאו מהבית
+כשהמסעדה מגיעה עד אליכם? 
+הגיע הזמן להנות מחווית שירות
+וקולינריה מהמובילות בארץ!
+ארוחה שתשאיר חותם שהאורחים שלכם 
+לא יפסיקו לדבר עליו. 
+אני שף ניסן חי והצוות המקצועי
+נגיע אליכם וניצור את האירוע המושלם
+תוך מתן דגש על איכות, טריות,
+טעם ושירות והכל בהקפדה יתרה
+גם על הפרטים הקטנים.`;
+export const DESCRIPTION_PC = `אז למה שתצאו מהבית כשהמסעדה מגיעה עד אליכם?
+הגיע הזמן להנות מחווית שירות וקולינריה מהמובילות בארץ!
+ארוחה שתשאיר חותם שהאורחים שלכם לא יפסיקו לדבר עליו. 
+אני שף ניסן חי והצוות המקצועי נגיע אליכם וניצור את האירוע המושלם
+תוך מתן דגש על איכות, טריות, טעם ושירות והכל בהקפדה יתרה
+גם על הפרטים הקטנים.`;
+export const JUMP_ORDER = `בואו נסגור אירוע`

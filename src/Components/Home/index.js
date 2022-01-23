@@ -1,8 +1,9 @@
 import React from 'react';
 import { HomeDiv, Logo, ContactIcon, ContactImg, ContactDiv, NumberPhone, JumpOrder, Content, Title, SuperTitle, Description } from './style'
-import { PRE_TITLE, POST_TITLE, SUPER_TITLE, DESCRIPTION, JUMP_ORDER } from "./text"
+import { PRE_TITLE, POST_TITLE, SUPER_TITLE, DESCRIPTION_PC, JUMP_ORDER, DESCRIPTION_WEB } from "./text"
 import facebook from './../../Assets/facebook.png'
 import instagram from './../../Assets/instagram.png'
+import { isMobile } from 'react-device-detect';
 
 
 const Home = () => {
@@ -25,7 +26,7 @@ const Home = () => {
                     <span>{POST_TITLE}</span>
                 </Title>
                 <SuperTitle>{SUPER_TITLE}</SuperTitle>
-                <Description>{DESCRIPTION}</Description>
+                <Description>{isMobile ? DESCRIPTION_WEB : DESCRIPTION_PC}</Description>
             </Content>
             <JumpOrder href="#jump_point">
                 {JUMP_ORDER}

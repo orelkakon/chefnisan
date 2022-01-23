@@ -50,7 +50,7 @@ export const Title = styled.p`
 
 export const Description = styled.p`
     direction: rtl;
-    font-size: 20px;   
+    font-size: 17px;   
     text-shadow: 0.1px 0.1px 1px black; 
     white-space: pre;
     @media only screen and (min-width: 960px) {
