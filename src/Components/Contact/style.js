@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import background_pc from './../../Assets/t1.jfif';
-import background_web from './../../Assets/web_bg.jpg';
+import background_web from './../../Assets/back.jfif';
 
 export const ContactDiv = styled.div`
     display: flex;
@@ -91,7 +91,7 @@ export const Send = styled.button`
     border: none;
     border-radius: 20px;
     box-shadow: 0.1px 0.1px 4px white;
-    :hover{
+    &:hover{
         transform: scale(1.02);
     }
 `;

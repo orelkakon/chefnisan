@@ -6,12 +6,7 @@ import Image8 from './../../Assets/I8.jpeg'
 import Image9 from './../../Assets/I9.jpeg'
 import Image13 from './../../Assets/I13.jpeg'
 import Image16 from './../../Assets/I16.jpeg'
-import Image17 from './../../Assets/I17.jpeg'
-import Image21 from './../../Assets/I21.jpeg'
-import Image24 from './../../Assets/I24.jpeg'
 import Image25 from './../../Assets/I25.jpeg'
-import Image26 from './../../Assets/I26.jpeg'
-import Image27 from './../../Assets/I27.jpeg'
 import Image28 from './../../Assets/I28.jpeg'
 import Image36 from './../../Assets/I36.jpeg'
 import Image38 from './../../Assets/I38.jpeg'
@@ -20,7 +15,6 @@ import Image41 from './../../Assets/I41.jpeg'
 import Image43 from './../../Assets/I43.jpeg'
 import Image44 from './../../Assets/I44.jpeg'
 import Image45 from './../../Assets/I45.jpeg'
-import Image47 from './../../Assets/I47.jpeg'
 import Image48 from './../../Assets/I48.jpeg'
 import Image50 from './../../Assets/I50.jpeg'
 import Image51 from './../../Assets/I51.jpeg'
@@ -57,6 +51,6 @@ import Table6 from "./../../Assets/t6.jfif"
 import Table7 from "./../../Assets/t7.jfif"
 import Table8 from "./../../Assets/t8.jfif"
 
-const images = [Image1, Image2, Image55, Image3, Image5,  Image8,  Image9, Image13, Image16, Image17, Image21, Image24, Image25, Image26, Image27, Image28,Image36, Image38, Image40, Image41, Image43, Image44, Image45, Image47, Image48, Image50, Image51, Image52, Image53, Image54, Image56, Image57, Image58, Image59, Image60, Image61, Image62, Image63, Image64, Image65, Image66, Image67, Image68, Image69, Image70, Image71, Image72, Image73, Image74, Image75, Table2, Table3, Table4, Table5, Table6, Table7, Table8, Table9]
+const images = [Image1, Image2, Image55, Image3, Image5,  Image8,  Image9, Image13, Image16, Image25, Image28,Image36, Image38, Image40, Image41, Image43, Image44, Image45, Image48, Image50, Image51, Image52, Image53, Image54, Image56, Image57, Image58, Image59, Image60, Image61, Image62, Image63, Image64, Image65, Image66, Image67, Image68, Image69, Image70, Image71, Image72, Image73, Image74, Image75, Table2, Table3, Table4, Table5, Table6, Table7, Table8, Table9]
 
 export default images

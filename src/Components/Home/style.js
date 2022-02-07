@@ -140,7 +140,7 @@ export const JumpOrder = styled.a`
         color: black;
         text-shadow: none;
     }
-    :hover{
+    &:hover{
         transform: scale(1.1);
     }
 `;
